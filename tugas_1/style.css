@@ -1,0 +1,107 @@
+.container {
+    display: grid;
+    width: 900;
+    height: 850px;
+    grid-template-areas: 'merah hijau hijau ungu ungu' 'merah pink hijaumuda hijaumuda hijaumuda' 'merah pink biru birutua birutua' 'jingga pink biru birutua birutua' 'jingga pink biru birutua birutua' 'jingga kuning kuning birutua birutua';
+}
+
+.container>div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: 1px solid #B1C1E0;
+}
+
+.font1 {
+    color: #E1D422;
+    font-size: 40px;
+}
+
+.font-xl {
+    font-size: 40px;
+}
+
+.font3 {
+    font-size: 40px;
+}
+
+.font9 {
+    color: #E1D422;
+    font-size: 40px;
+}
+
+.grid1 {
+    grid-area: merah;
+}
+
+.grid2 {
+    grid-area: jingga;
+}
+
+.grid3 {
+    grid-area: hijau;
+}
+
+.grid4 {
+    grid-area: pink;
+}
+
+.grid5 {
+    grid-area: biru;
+}
+
+.grid6 {
+    grid-area: kuning;
+}
+
+.grid7 {
+    grid-area: ungu;
+}
+
+.grid8 {
+    grid-area: hijaumuda;
+}
+
+.grid9 {
+    grid-area: birutua;
+}
+
+.bg1 {
+    background-color: #e16060;
+}
+
+.bg2 {
+    background-color: #E4C518;
+}
+
+.bg3 {
+    background-color: #1EA11B;
+}
+
+.bg4 {
+    background-color: pink;
+}
+
+.bg5 {
+    background-color: #1EA11B;
+}
+
+.bg6 {
+    background-color: #FFFD20;
+}
+
+.bg7 {
+    background-color: #6D0BB8;
+}
+
+.bg8 {
+    background-color: #E1D422;
+}
+
+.bg9 {
+    background-color: #3F70D2;
+}
